@@ -1,0 +1,144 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background: #181818;
+    color: white;
+    margin: 0;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1238px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 51px;
+    line-height: 125%;
+}
+
+header h1 span {
+    color: rgba(255, 204, 0, 1);
+    font-style: italic;
+}
+
+.trailer-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.trailer-box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-shadow: -3px 3px 0px rgba(199, 199, 199, 1);
+    height: 238px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.trailer-info {
+    position: relative;
+    width: 559px;
+    text-align: left;
+    z-index: 2;
+}
+
+.trailer-info h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    margin-bottom: 12px;
+}
+
+.details div {
+    font-weight: 400;
+    font-size: 18px;    
+    line-height: 175%;
+}
+
+.details span {
+    font-weight: 700;
+    color: rgba(255, 204, 0, 1);
+}
+
+.explore-btn {
+    margin-top: 24px;
+    padding: 16px 24px;
+    border: 2px solid rgba(255, 204, 0, 1);
+    border-radius: 100px;
+    background: rgba(255, 204, 0, 1);
+    color: #181818;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* #container {
+    width: 1366px;
+    height: 884px;
+    padding: 64px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+#header {
+    width: 1238px;
+    height: 128px;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: center;
+    font: Nunito Sans;
+}
+/* #body {
+    gap: 24px
+} */
+/* #button {
+    width: 240px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    gap: 12px;
+    color: rgba(255,204,0,1);
+}
+.row{
+    width: 1238px;
+    height: 238px;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;    
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+.options{
+    width: 607px;
+    height: 238px;
+    border-radius: 12px;
+    padding-top: 32px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    gap: 22px;
+    box-shadow: -3px 3px 0 0 #c7c7c7;
+} */ 
