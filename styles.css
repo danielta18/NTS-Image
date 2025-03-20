@@ -34,25 +34,19 @@ header h1 span {
 .trailer-box {
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     border-radius: 12px;
     padding: 32px 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
     box-shadow: -3px 3px 0px rgba(199, 199, 199, 1);
     height: 238px;
-    position: relative;
-    overflow: hidden;
     color: white;
 }
 
 .trailer-info {
-    position: relative;
     width: 559px;
     text-align: left;
-    z-index: 2;
 }
 
 .trailer-info h2 {
@@ -89,56 +83,3 @@ header h1 span {
 
 
 
-/* #container {
-    width: 1366px;
-    height: 884px;
-    padding: 64px;
-    gap: 24px;
-    display: flex;
-    flex-direction: column;
-}
-#header {
-    width: 1238px;
-    height: 128px;
-    font-size: 51px;
-    font-weight: 700;
-    line-height: 125%;
-    letter-spacing: 0%;
-    text-align: center;
-    font: Nunito Sans;
-}
-/* #body {
-    gap: 24px
-} */
-/* #button {
-    width: 240px;
-    height: 50px;
-    border-radius: 100px;
-    border: 2px;
-    padding-top: 16px;
-    padding-right: 24px;
-    padding-bottom: 16px;
-    padding-left: 24px;
-    gap: 12px;
-    color: rgba(255,204,0,1);
-}
-.row{
-    width: 1238px;
-    height: 238px;
-    gap: 24px;
-    display: flex;
-    flex-direction: row;    
-    margin-bottom: 24px;
-    justify-content: space-between;
-}
-.options{
-    width: 607px;
-    height: 238px;
-    border-radius: 12px;
-    padding-top: 32px;
-    padding-right: 24px;
-    padding-bottom: 32px;
-    padding-left: 24px;
-    gap: 22px;
-    box-shadow: -3px 3px 0 0 #c7c7c7;
-} */ 
